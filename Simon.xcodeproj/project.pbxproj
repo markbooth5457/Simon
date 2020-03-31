@@ -16,6 +16,12 @@
 		5DC0EC2D2427CA800018B533 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC0EC2C2427CA800018B533 /* ExtensionDelegate.swift */; };
 		5DC0EC2F2427CA810018B533 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DC0EC2E2427CA810018B533 /* Assets.xcassets */; };
 		5DC0EC322427CA810018B533 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DC0EC312427CA810018B533 /* Preview Assets.xcassets */; };
+		5DC0EC42242909080018B533 /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC0EC41242909080018B533 /* PlaySound.swift */; };
+		5DC0EC4424290A250018B533 /* Glass.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 5DC0EC4324290A240018B533 /* Glass.aiff */; };
+		5DC0EC4624290E1E0018B533 /* Basso.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 5DC0EC4524290E1E0018B533 /* Basso.aiff */; };
+		5DC0EC4A24290ECF0018B533 /* Submarine.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 5DC0EC4724290ECF0018B533 /* Submarine.aiff */; };
+		5DC0EC4B24290ECF0018B533 /* Tink.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 5DC0EC4824290ECF0018B533 /* Tink.aiff */; };
+		5DC0EC4C24290ECF0018B533 /* Ping.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 5DC0EC4924290ECF0018B533 /* Ping.aiff */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +79,12 @@
 		5DC0EC2E2427CA810018B533 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5DC0EC312427CA810018B533 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5DC0EC332427CA810018B533 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DC0EC41242909080018B533 /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
+		5DC0EC4324290A240018B533 /* Glass.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = Glass.aiff; sourceTree = "<group>"; };
+		5DC0EC4524290E1E0018B533 /* Basso.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = Basso.aiff; sourceTree = "<group>"; };
+		5DC0EC4724290ECF0018B533 /* Submarine.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = Submarine.aiff; sourceTree = "<group>"; };
+		5DC0EC4824290ECF0018B533 /* Tink.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = Tink.aiff; sourceTree = "<group>"; };
+		5DC0EC4924290ECF0018B533 /* Ping.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = Ping.aiff; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +131,12 @@
 			isa = PBXGroup;
 			children = (
 				5DC0EC282427CA800018B533 /* ContentView.swift */,
+				5DC0EC41242909080018B533 /* PlaySound.swift */,
+				5DC0EC4524290E1E0018B533 /* Basso.aiff */,
+				5DC0EC4324290A240018B533 /* Glass.aiff */,
+				5DC0EC4924290ECF0018B533 /* Ping.aiff */,
+				5DC0EC4724290ECF0018B533 /* Submarine.aiff */,
+				5DC0EC4824290ECF0018B533 /* Tink.aiff */,
 				5DC0EC2A2427CA800018B533 /* HostingController.swift */,
 				5DC0EC2C2427CA800018B533 /* ExtensionDelegate.swift */,
 				5DC0EC2E2427CA810018B533 /* Assets.xcassets */,
@@ -252,7 +270,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DC0EC4C24290ECF0018B533 /* Ping.aiff in Resources */,
+				5DC0EC4A24290ECF0018B533 /* Submarine.aiff in Resources */,
+				5DC0EC4424290A250018B533 /* Glass.aiff in Resources */,
 				5DC0EC322427CA810018B533 /* Preview Assets.xcassets in Resources */,
+				5DC0EC4B24290ECF0018B533 /* Tink.aiff in Resources */,
+				5DC0EC4624290E1E0018B533 /* Basso.aiff in Resources */,
 				5DC0EC2F2427CA810018B533 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,6 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DC0EC2B2427CA800018B533 /* HostingController.swift in Sources */,
+				5DC0EC42242909080018B533 /* PlaySound.swift in Sources */,
 				5DC0EC292427CA800018B533 /* ContentView.swift in Sources */,
 				5DC0EC2D2427CA800018B533 /* ExtensionDelegate.swift in Sources */,
 			);
